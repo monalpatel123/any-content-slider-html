@@ -1,0 +1,13 @@
+.gallery-toolbar {
+  position: relative;
+}
+.gallery-item {
+  position: relative;
+}
+.gallery-cards img {
+  position: absolute;
+  display: none;
+}
+.gallery-cards img.active-item {
+  display: block;
+}
